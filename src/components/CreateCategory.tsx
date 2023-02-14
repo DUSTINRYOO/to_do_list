@@ -17,6 +17,7 @@ function CreateCategory() {
         { id: oldCategoryName.length + 1, categoryName },
       ];
     });
+    setValue("categoryName", "");
   };
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
