@@ -49,6 +49,11 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	background-color: ${(props) => props.theme.bgColor};
 	color: ${(props) => props.theme.textColor};
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	font-size: 30px;
 }
 a {
 	text-decoration: none;
